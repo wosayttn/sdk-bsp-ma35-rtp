@@ -274,6 +274,10 @@
 #define BSP_USING_GPIO
 #define BSP_USING_UART
 #define BSP_USING_UART16
+#define BSP_USING_HWSEM
+#define BSP_USING_HWSEM0
+#define BSP_USING_WHC
+#define BSP_USING_WHC0
 
 /* On-board Peripheral Drivers */
 
