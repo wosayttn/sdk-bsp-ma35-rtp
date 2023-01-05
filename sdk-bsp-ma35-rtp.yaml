@@ -1,0 +1,80 @@
+board:
+  buy_url_cn: https://direct.nuvoton.com/zh/numaker-hmi-ma35d1-s1
+  buy_url_global: https://direct.nuvoton.com/en/numaker-hmi-ma35d1-s1
+  debug_interface: ''
+  debugger: ''
+  description_en: One 180 MHz Arm Cortex-M4 core
+  description_zh: 一颗 180 MHz Arm Cortex-M4 内核
+  emulator_machine: ''
+  large_image: ''
+  name: MA35-RTP
+  price_cn: ''
+  price_global: ''
+  sale_contact_cn: https://direct.nuvoton.com/zh/numaker-hmi-ma35d1-s1
+  sale_contact_global: https://direct.nuvoton.com/en/numaker-hmi-ma35d1-s1
+  small_image: ''
+  vendor: Nuvoton
+  version: ''
+chip:
+  chip_name: ''
+  clock_source: SYSPLL
+  device_vendor: Nuvoton
+  family_name: NuMicro
+  rx_name: ''
+  series_name: MA35D1
+  source_freq: ''
+  sub_series_name: MA35D1
+  target_freq: '180000000'
+  tx_name: ''
+  uart_name: UART16
+docs: []
+example_projects: []
+features:
+- 180MHz CPU frequency
+- 128KB SRAM
+- DDR size 3968 kB
+- Nu-Link2-Me
+features_zh:
+- 180MHz 主频
+- 128KB SRAM
+- DDR size 3968 kB
+- Nu-Link2-Me
+pkg_type: Board_Support_Packages
+pkg_vendor: Nuvoton
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .settings
+    - .cproject
+    - .config
+    - .project
+    - SConstruct
+    - linking_scripts
+    - rtconfig_preinc.h
+    - Kconfig
+    - applications
+    - makefile.targets
+    - board
+    - README.md
+    - rtconfig.h
+    - SConscript
+    - libraries
+    - rt-thread
+    - packages
+    - rtconfig.py
+    - template.uvprojx
+    source_path_offset: ''
+    target_path_offset: ''
+  external_files:
+  - package_type: ToolChain_Support_Packages
+    package_name: GNU_Tools_for_ARM_Embedded_Processors
+    package_vendor: 'ARM'
+    package_version: 10.2.1
+    source_path_offset: ''
+    target_path_offset: ''
+    files_and_folders: []    
+  project_description: ''
+  project_name: ma35-rtp
+  project_type: rt-thread|@full|@notUsed
+yaml_version: 3
